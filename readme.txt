@@ -4,7 +4,7 @@ Donate link: http://www.whiteboxstudio.dk/eic/
 Tags: image, crop, resize, manage, custom	
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.1.1
+Stable tag: 1.1
 
 == Description ==
 
@@ -71,7 +71,7 @@ A: If only I new! Please post a comment on the EIC website. Maybe if I buy my wi
 
 = 1.0 =
 * Initial release
-= 1.1.1 =
+= 1.1 =
 * Minor updates to the repository
 
 == Upgrade Notice ==
