@@ -22,7 +22,7 @@ add_action('wp_enqueue_scripts', 'wbs_eic_enqueue_scripts');
 add_action('wp_footer', 'wbs_eic_init_footer');
 add_action('wp_ajax_wbs_eic', 'send_ajax_wbs_eic');
 add_action('admin_menu', 'wbs_eic_admin_panel');
-add_filter('plugin_action_links',  'add_settings_link', 10, 2 );
+add_filter('plugin_action_links',  'wbs_eic_add_settings_link', 10, 2 );
 add_action('admin_init', 'wbs_eic_register_settings');
 
 
@@ -115,7 +115,7 @@ function wbs_eic_background_opacity_field_string()
 	echo('<input id="wbs_eic_background_opacity" name="wbs_eic_background_opacity[text_string]" size="4" type="text" value="'.$options['text_string'].'" />');
 }
 
-function add_settings_link($links, $file) {
+function wbs_eic_add_settings_link($links, $file) {
 	static $this_plugin;
 	if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
 	
