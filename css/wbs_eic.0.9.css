@@ -1,0 +1,63 @@
+#edit_box
+{
+}
+
+#edit
+{
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 80;
+    background-image: url('../images/edit.png');
+    width: 30px;
+    height: 30px;
+}
+#edit_image_box
+{
+    position: absolute;
+    display: inline;
+    z-index: 80;
+}
+#resize_box
+{
+    position: absolute;
+    display: inline;
+    z-index: 99;
+}
+#edit_info
+{
+    display: block;
+    background-image: url('../images/info.png');
+    background-position: 3px 3px; 
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+#edit_cancel
+{
+    display: block;
+    background-image: url('../images/cancel.png');
+    background-position: 3px 3px; 
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+#edit_crop
+{
+    display: block;
+    background-image: url('../images/crop.png');
+    background-position: 3px 3px; 
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+#edit_buttons
+{
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin: 3px 3px 0 3px;
+    width: 36px;
+    height: 110px;
+}
