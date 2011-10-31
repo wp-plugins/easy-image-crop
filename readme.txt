@@ -4,7 +4,7 @@ Donate link: http://www.whiteboxstudio.dk/eic/
 Tags: image, crop, resize, manage, custom	
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.1
+Stable tag: 1.0.1
 
 == Description ==
 
