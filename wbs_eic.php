@@ -120,7 +120,7 @@ function add_settings_link($links, $file) {
 	if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
 	
 	if ($file == $this_plugin){
-		$settings_link = '<a href="options-general.php?page=wbs_eic_settings">'.__("Settings", "photosmash-galleries").'</a>';
+		$settings_link = '<a href="options-general.php?page=wbs_eic_settings">'.__("Settings", "wbs_eic").'</a>';
 		array_unshift($links, $settings_link);
 	}
 	return $links;
